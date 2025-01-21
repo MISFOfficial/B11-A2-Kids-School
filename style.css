@@ -298,6 +298,7 @@ body{
     .curriculum .tit{
         justify-content: center;
         align-items: center;
+        gap: 20px;
     }
     .curriculum .headding-title{
         font-size: 26px;

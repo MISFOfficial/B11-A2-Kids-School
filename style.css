@@ -146,6 +146,12 @@ body{
     margin-top: 60px;
     gap: 80px;
 }
+.curriculum .content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 .arro{
     display: flex;
     justify-content: center;
@@ -232,10 +238,145 @@ body{
 
 /*Stories*/
 .bann-3{
-    padding-left: 141px;
-    padding-right: 141px;
+    background-image: url(assets/bg.png);
+    background-repeat: no-repeat;
+    border: 2px saddlebrown ;
+     
 }
 
+.stories{
+    padding-left: 141px;
+    padding-right: 141px;
+    margin-top: 60px;
+    background: url(image),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+.cont-1{
+    width: 540.27px;
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+
+}
+.cont-2{
+    width: 290.69px;
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+
+}
+.cont-1>img{
+    border-radius: 16px 16px 0px 0px;
+    width: 540px;
+    height: 337px;
+}
+.cont-2>img{
+    border-radius: 16px 16px 0px 0px;
+    width: 291px;
+    height: 177px;
+}
+.cont-1>h3{
+    border-radius: 47.93px;
+    background: rgb(60, 216, 232);
+    width: 174.51px;
+    height: 47.93px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Raleway;
+    font-size: 15.34px;
+    font-weight: 500;
+    position:relative;
+    top: -30px;
+    left: 38px;
+    color: white;
+    margin: 0px;
+}
+.cont-2>h3{
+    border-radius: 47.93px;
+    background: rgb(60, 216, 232);
+    width: 179.44px;
+    height: 38.35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Raleway;
+    font-size: 15.34px;
+    font-weight: 500;
+    position:relative;
+    top: -25px;
+    left: 38px;
+    color: white;
+    margin: 0px;
+}
+.cont-1>div{
+    padding-left: 38px;
+    padding-right : 38px;
+    display: flex;
+    flex-direction: column;
+    gap: 51px;
+    padding-bottom: 34.52px;
+}
+.cont-2>div{
+    padding-left: 38px;
+    padding-right : 38px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 33.34px;
+}
+.cont-1>div>h4{
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0px;
+}
+.cont-2>div>h4{
+    font-size: 15.34px;
+    font-weight: 700;
+    margin: 0px;
+}
+.cont-1>div>p{
+    font-family: Raleway;
+    font-size: 15.34px;
+    font-weight: 500;
+    margin: 0px;
+}
+.catagoris{
+    display: flex;
+    justify-content: space-between;
+    gap: 19px;
+}
+.news-2{
+    display: flex;
+    gap: 19px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+}
+.news-2>div{
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn-2{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    padding-bottom: 60px ;
+}
+.btn-2 .btn{
+    width: 134px;
+    height: 30px;
+    border-radius: 12px;
+    background: rgb(17, 17, 17);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 700;
+}
 
 
 
@@ -299,6 +440,12 @@ body{
         font-size: 14px;
         font-weight: 500;
     }
+    .btn{
+        width: 131px;
+        height: 42px;
+        font-size: 16px;
+        font-weight: 700;
+    }
 
     /*curriculum section*/
     .curriculum .tit{
@@ -321,7 +468,7 @@ body{
         gap: 12.3px;
         
     }
-    .curriculum .content>div{
+    .curriculum .t>div{
         height: 324.47px;
         gap: 22px;
     }
@@ -342,6 +489,58 @@ body{
     }
     .curriculum .arro{
         display: none;
+    }
+
+
+    .stories{
+        padding-left: 16px;
+        padding-right: 16px;
+        gap: 20px;
+    }
+    .news-2{
+        padding-left: 0px;
+        justify-items: center;
+        justify-content: center;
+    }
+    .cont-1{
+        display: none;
+    }
+    .cont-2{
+        width: 173.09px;
+        height: 179.59px;
+        border-radius: 9.53px;
+
+    }
+    .cont-2>img{
+        width: 173.27px;
+        height: 105.39px;
+        border-radius: 9.53px 9.53px 0px 0px;
+    }
+    .cont-2>h3{
+        font-family: Raleway;
+        font-size: 9.13px;
+        font-weight: 500;
+        width: 103.91px;
+        height: 22.83px;
+        border-radius: 28.54px;
+        background: rgb(149, 178, 38);
+        left: 22.83px;
+        top: -15px;
+        margin: 0px;
+    }
+    .cont-2>div{
+        margin: 0px;
+        padding-left: 22.83px;
+    }
+    .cont-2>div>h4{
+        font-size: 9.13px;
+        font-weight: 700;
+
+    }
+    .stories .tit .headding-title{
+        font-size: 26px;
+        font-weight: 700;
+        margin: 0px;
     }
 
 }

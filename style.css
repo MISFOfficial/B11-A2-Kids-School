@@ -230,10 +230,16 @@ body{
     color: #8700FF;
 }
 
+/*Stories*/
+.bann-3{
+    padding-left: 141px;
+    padding-right: 141px;
+}
 
 
 
-@media only screen and (max-width: 391px) {
+
+@media only screen and (max-width: 576px) {
     .body{
         background: rgb(255, 255, 255);
     }
@@ -298,15 +304,17 @@ body{
     .curriculum .tit{
         justify-content: center;
         align-items: center;
-        gap: 20px;
     }
     .curriculum .headding-title{
         font-size: 26px;
         font-weight: 700;
+        margin: 0px;
     }
     .curriculum{
         padding-left: 16px;
-        padding-right: 16px;
+        padding-right: 16px; 
+        gap: 20px;
+        margin-top: 40px;
     }
     .curriculum .content{
         flex-direction: column;
@@ -331,6 +339,9 @@ body{
         font-size: 10.22px;
         width: 193.81px;
    
+    }
+    .curriculum .arro{
+        display: none;
     }
 
 }

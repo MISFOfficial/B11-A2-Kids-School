@@ -238,6 +238,11 @@ body{
     font-size: 15.09px;
     font-weight: 700;
 }
+.content>div>p{
+     padding-left: 40px;
+     padding-right: 40px;
+}
+
 .sky{
     color: #64C8FF;
     transition: .4s;

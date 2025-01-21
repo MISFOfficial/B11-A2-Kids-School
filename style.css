@@ -61,6 +61,10 @@ body{
     font-size: 20px;
     font-weight: 600;
     border: 0px;
+    transition: .4s;
+}
+.navigation>button:hover{
+    transform: scale(1.1);
 }
 
 .home {
@@ -121,6 +125,10 @@ body{
     font-size: 20px;
     font-weight: 700; 
     border: 0px;
+    transition: .4s;
+}
+.btn:hover{
+    transform: scale(1.1);
 }
 .title{
     display: flex;
@@ -171,6 +179,10 @@ body{
     font-size: 24px;
     color: white;
     margin: 0px;
+    transition: .4s;
+}
+.arro>i:hover{
+    transform: scale(1.1);
 }
 .tit{
     display: flex;
@@ -228,12 +240,24 @@ body{
 }
 .sky{
     color: #64C8FF;
+    transition: .4s;
+}
+.sky:hover{
+    transform: scale(1.1);
 }
 .orn{
     color: #F0AA00;
+    transition: .4s;
+}
+.orn:hover{
+    transform: scale(1.1);
 }
 .beg{
     color: #8700FF;
+    transition: .4s;
+}
+.beg:hover{
+    transform: scale(1.1);
 }
 
 /*Stories*/
@@ -255,6 +279,7 @@ body{
 }
 .cont-1{
     width: 540.27px;
+    height: 600.52px;
     border-radius: 16px;
     background: rgb(255, 255, 255);
 
@@ -454,16 +479,38 @@ footer>section{
     display: flex;
     gap: 10px;
 }
-.contact>div>i{
+
+.contact>div>a{
+    text-decoration: none;
+    transition: .4s;
+}
+.contact>div>a:hover{
+    transform: scale(1.1);
+}
+.fb{
     border-radius: 4px;
     background: rgb(59, 89, 152);
     font-size: 20px;
     color: white;
     padding: 10px;
 }
-.contact>div>i{
+.www{
     border-radius: 4px;
-    background: rgb(59, 89, 152);
+    background: rgb(234, 76, 137);
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+}
+.twt{
+    border-radius: 4px;
+    background: rgb(29, 161, 242);
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+}
+.gg {
+    border-radius: 4px;
+    background: rgb(221, 75, 57);
     font-size: 20px;
     color: white;
     padding: 10px;
@@ -587,6 +634,12 @@ footer>section{
         justify-content: center;
         align-items: center;
     }
+    /*stories*/
+    .bann-3 marquee{
+        font-family: Quicksand;
+        font-size: 16.25px;
+        font-weight: 700;
+    }
     .stories{
         padding-left: 16px;
         padding-right: 16px;
@@ -689,11 +742,7 @@ footer>section{
         font-weight: 700;
         margin: 0px;
     }
-    .contact>div>i{
-        border-radius: 3.39px;
-        padding: 8.48;
-        
-    }
+
 }
 
 

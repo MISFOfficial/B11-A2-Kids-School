@@ -742,6 +742,9 @@ footer>section{
         font-weight: 700;
         margin: 0px;
     }
+    .contact>div>a{
+        padding: 8.84px;
+    }
 
 }
 

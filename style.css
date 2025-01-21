@@ -120,6 +120,7 @@ body{
     background: rgb(17, 17, 17);
     font-size: 20px;
     font-weight: 700; 
+    border: 0px;
 }
 .title{
     display: flex;
@@ -156,6 +157,39 @@ body{
     .navigation>button{
         display: none;
     }
+
+    /*bannder section*/
+    .banner{
+        padding-left: 16px;
+        padding-right: 16px;
+        margin-top: 28px;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap: 0px;
+
+    }
+    .title{
+        margin-top: 20px;
+        align-items: center;
+        gap: 18px;
+    }
+    .banner>div>img{
+        width: 336.58px;
+        height: 413px;
+        padding: 0px;
+        margin: 0px;
+    }
+    .banner>div>h1{
+        font-size: 32px;
+        font-weight: 700;
+    }
+    .banner>div>p{
+        font-size: 14px;
+        font-weight: 500;
+    }
+
 }
 
 

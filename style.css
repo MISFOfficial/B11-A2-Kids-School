@@ -129,6 +129,110 @@ body{
 }
 
 
+.bann-2{
+    background-image: url(assets/bg.png);
+    background-repeat: no-repeat;
+}
+/*curriculum section*/
+.tit .headding-title{
+    font-size: 46px;
+    font-weight: 700;
+}
+.curriculum{
+    padding-left: 141px;
+    padding-right: 141px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    gap: 80px;
+}
+.arro{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 0px;
+    padding-bottom: 60px ;
+}
+
+.arro>i{
+    border-radius: 30px;
+    background: rgb(254, 163, 1);
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: white;
+    margin: 0px;
+}
+.tit{
+    display: flex;
+    justify-content: center;
+}
+.curriculum>div{
+    display: flex;
+    flex-direction: row;
+    gap: 28px;
+}
+.curriculum>div>div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 476.78px;
+    text-align: center;
+
+    border: 0.94px solid rgb(222, 245, 255);
+    border-radius: 18.86px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+    gap: 34px;
+
+}
+.curriculum .ele{
+    border: 0.94px solid rgb(255, 244, 220);
+    border-radius: 18.86px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+.curriculum .mid{
+    border: 0.94px solid rgb(242, 232, 255);
+    border-radius: 18.86px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+
+.curriculum>div>div>h1{
+    font-size: 24.52px;
+    font-weight: 700;
+    margin: 0px;
+}
+.curriculum>div>div>p{
+    font-family: Raleway;
+    font-size: 15.09px;
+    font-weight: 500;
+    margin: 0px;
+}
+.curriculum>div>div>a{
+    text-decoration: none;
+    margin: 0px;
+    font-size: 15.09px;
+    font-weight: 700;
+}
+.sky{
+    color: #64C8FF;
+}
+.orn{
+    color: #F0AA00;
+}
+.beg{
+    color: #8700FF;
+}
+
+
+
+
 @media only screen and (max-width: 391px) {
     .body{
         background: rgb(255, 255, 255);
@@ -188,6 +292,44 @@ body{
     .banner>div>p{
         font-size: 14px;
         font-weight: 500;
+    }
+
+    /*curriculum section*/
+    .curriculum .tit{
+        justify-content: center;
+        align-items: center;
+    }
+    .curriculum .headding-title{
+        font-size: 26px;
+        font-weight: 700;
+    }
+    .curriculum{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .curriculum .content{
+        flex-direction: column;
+        gap: 12.3px;
+        
+    }
+    .curriculum .content>div{
+        height: 324.47px;
+        gap: 22px;
+    }
+    .curriculum .content>div>img{
+        width: 93.05px;
+        height: 84.42px;
+    
+    }
+    .curriculum .content>div>h1{
+        font-size: 16.25px;
+        font-weight: 700;
+        
+    }
+    .curriculum .content>div>p{
+        font-size: 10.22px;
+        width: 193.81px;
+   
     }
 
 }
